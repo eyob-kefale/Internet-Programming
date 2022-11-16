@@ -1,0 +1,118 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(248, 245, 242);
+    margin: 10rem 30rem 0 30rem;
+    height: 23rem;
+    width: 300px;
+    box-shadow: 5px 10px 5px 10px rgb(232, 225, 225);
+    border-radius: 10px;
+  }
+  .job{
+  margin-left: 50px;
+    
+  
+  }
+  button{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgb(244, 244, 245);
+  border-radius: 10px;
+  }
+  .age{
+    display: flex;
+    border: 3px solid rgb(244, 244, 245);
+    box-shadow: 5px 5px 5px 5px rgb(251, 246, 246);
+    margin: 25px;
+    width: 13rem;
+    height: 40px;
+    justify-content: flex-end;
+  
+    
+    border-radius: 5px;
+  }
+  h3{
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .btn-primery{
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 15px 70px 5px 10px;
+    
+  }
+  .btn{
+     display:flex;
+  flex-direction: column;
+  
+  /*margin: 3rem 3rem 3rem 17rem;
+  
+  border: 1px soild red;
+  justify-content: flex-end; */
+  
+  }
+  
+  .f-btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .s-btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .t-btn{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign{
+    background-color: #005;
+    color: #fff;
+  }
+  .c{
+    
+      background-color: orange;
+      color: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
