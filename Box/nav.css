@@ -6,11 +6,11 @@ body {
 }
 
 .box {
-    border: 2px solid #FED049;
+    border: 2px solid rgb(206, 55, 55);
 }
 
 .top {
-    margin: 0 5px 3px;
+    margin: 0 15px 3px;
     border: 2px solid #C147E9;
    height: 40px;
 }
@@ -23,7 +23,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 5px 3px;
+    margin:10px 15px 10px 15px;
     height: 150px;
     
 }
@@ -43,7 +43,11 @@ p {
 .footer {
    
     height: 40px;
-    margin: 0 5px 3px;
-    border: 2px solid #3F0071;
+    margin: 10px 15px 10px;
+    border: 2px solid #C147E9;
 
+}
+
+p{
+    margin-bottom: 15px;
 }
