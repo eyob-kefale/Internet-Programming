@@ -6,12 +6,12 @@ body {
 }
 
 .box {
-    border: 2px solid rgb(206, 55, 55);
+    border: 4px solid rgb(206, 55, 55);
 }
 
 .top {
     margin: 0 15px 3px;
-    border: 2px solid #C147E9;
+    border: 4px solid #C147E9;
    height: 40px;
 }
 
@@ -22,7 +22,7 @@ p {
 .body {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin:10px 15px 10px 15px;
     height: 150px;
     
@@ -30,24 +30,33 @@ p {
 
 .left {
     position: relative;
-    width: 10%;
-    border: 2px solid #009EFF;
+    /* width: 10%; */
+    flex:1;
+    margin-right: 3px;
+    border: 4px solid #00FFF6;
 }
 
 .right {
     position: relative;
-    width: 85%;
-    border: 2px solid #FED049;
+    flex: 7;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    /* width: 85%; */
+    border: 4px solid #FAAB78;
 }
 
 .footer {
    
     height: 40px;
-    margin: 10px 15px 10px;
-    border: 2px solid #C147E9;
-
+    margin: 10px 25px 10px 15px;
+    border: 4px solid #00005C;
+    
+      
 }
 
 p{
     margin-bottom: 15px;
+    
 }
+
